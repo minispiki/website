@@ -7,7 +7,7 @@ body {
   text-align: center;
 }
 
-.link a {
+#link *{
   padding: 10px;
   color: #ff0000;
 }
