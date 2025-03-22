@@ -5,9 +5,12 @@ body {
   border: 5px solid skyblue;
   font-family: sans-serif;
   text-align: center;
+  font-size: small;
 }
 
 #link *{
-  padding: 10px;
+  display: block;
+  padding: 2px;
   color: #ff0000;
+  text-align: right;
 }
