@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <title>***Test***</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../style.css">
+    <meta name="description" content="My lil test page">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</html>
+
+<body>
+    <div>
+        <h1><strong>Test website, go away...</strong></h1>
+        <p>JS is tested here...</p>
+    </div>
+
+    <script>
+        "use strict"
+        // mesage to the console
+        console.log("Welcome to my test page!");
+        console.log("Hello, world!");
+
+        let leave = confirm("Do you want to leave?") ? window.location.replace("../index.html") : alert ("Ok.");
+        /*
+        if (leave) {
+            window.location.replace("../index.html");
+        } else {
+            alert ("Ok.")
+        }
+        */
+       // CO0ol
+       let counter = 0
+
+        /*
+        console.log(`I love you ${counter}%`);
+        do {
+            counter ++;
+            console.log(`I love you ${counter}%`);
+
+        } while (!(counter >= 100 ))
+        */
+
+        for (; !(counter >=100); counter++) {
+            console.log(`I love you ${counter}%`);
+        }
+        console.log(`I love you ${counter}%`);
+       
+    </script>
+</body>
