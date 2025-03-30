@@ -12,6 +12,7 @@
     <div>
         <h1><strong>Test website, go away...</strong></h1>
         <p>JS is tested here...</p>
+        <button id="real">Real</button>
     </div>
 
 
@@ -45,6 +46,13 @@
             console.log(`I love you ${counter}%`);
         }
         console.log(`I love you ${counter}%`);
+
+        $(function(){
+            $("#real").click(function(){
+                $("#real").replaceWith("<p><b>Pressed</b></p>");
+            });
+
+        });
 
        
     </script>
