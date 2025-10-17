@@ -1,0 +1,15 @@
+{$DOMAIN} {
+	handle_path /assets/* {
+		root * {$PATH_TO_MINISPIKI_ROOT}/assets/
+		file_server browse
+	}
+	handle {
+		root * {$PATH_TO_MINISPIKI_ROOT}/www/
+		file_server
+	}
+
+	handle_errors {
+		rewrite * /nginx/{err.status_code}.html
+		file_server
+	}
+}
