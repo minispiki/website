@@ -9,7 +9,7 @@
 	}
 
 	handle_errors {
-		rewrite * /nginx/{err.status_code}.html
+		rewrite * /caddy/{err.status_code}.html
 		file_server
 	}
 }
