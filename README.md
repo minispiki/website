@@ -1,5 +1,5 @@
 # **MINISPIKI's WEBSITE**
-**This website is is on gh-pages: [*Click here to view source code*](https://github.com/minispiki/minispiki.github.io)**
+**This website is on gh-pages: [*Click here to view source code*](https://github.com/minispiki/minispiki.github.io)**
 ## Running
 Pass the env vars **DOMAIN** and **PATH_TO_MINISPIKI_ROOT** and run caddy with the caddyfile supplied.
 
